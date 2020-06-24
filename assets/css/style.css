@@ -1,0 +1,34 @@
+@font-face {
+    src: url("../fonts/Antic_Didone/AnticDidone-Regular.ttf");
+    src: url("../fonts/avnir_sv/AvenirLTStd-Book.otf");
+    src: url("../fonts/avnir_sv/AvenirLTStd-Medium.otf");
+    src: url("../fonts/avnir_sv/AvenirLTStd-Roman.otf");
+    src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+    src: url("../fonts/Quicksand/static/Quicksand-Bold.ttf");
+    src: url("../fonts/Quicksand/static/Quicksand-Light.ttf");
+    src: url("../fonts/Quicksand/static/Quicksand-Medium.ttf");
+    src: url("../fonts/Quicksand/static/Quicksand-Regular.ttf");
+    src: url("../fonts/Quicksand/static/Quicksand-SemiBold.ttf");
+}
+
+#page5 {
+    background-image: url("../img/PlaceYourImageHere-1.png");
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* background-color: #ffffff; */
+    height: 100vh;
+    background-position: bottom;
+}
+
+#page7 {
+    background-image: url("../img/PlaceYourImageHere.png");
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* background-color: #ffffff; */
+    height: 100vh;
+    background-position: bottom;
+}
