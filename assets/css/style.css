@@ -1,34 +1,317 @@
-@font-face {
-    src: url("../fonts/Antic_Didone/AnticDidone-Regular.ttf");
-    src: url("../fonts/avnir_sv/AvenirLTStd-Book.otf");
-    src: url("../fonts/avnir_sv/AvenirLTStd-Medium.otf");
-    src: url("../fonts/avnir_sv/AvenirLTStd-Roman.otf");
-    src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
-    src: url("../fonts/Quicksand/static/Quicksand-Bold.ttf");
-    src: url("../fonts/Quicksand/static/Quicksand-Light.ttf");
-    src: url("../fonts/Quicksand/static/Quicksand-Medium.ttf");
-    src: url("../fonts/Quicksand/static/Quicksand-Regular.ttf");
-    src: url("../fonts/Quicksand/static/Quicksand-SemiBold.ttf");
-}
-
-#page5 {
-    background-image: url("../img/PlaceYourImageHere-1.png");
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* Resize the background image to cover the entire container */
-    /* background-color: #ffffff; */
-    height: 100vh;
-    background-position: bottom;
-}
-
-#page7 {
-    background-image: url("../img/PlaceYourImageHere.png");
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* Resize the background image to cover the entire container */
-    /* background-color: #ffffff; */
-    height: 100vh;
-    background-position: bottom;
-}
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+        
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+        
+        body {
+            line-height: 1;
+        }
+        
+        ol,
+        ul {
+            list-style: none;
+        }
+        
+        blockquote,
+        q {
+            quotes: none;
+        }
+        
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: '';
+            content: none;
+        }
+        
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        
+        @font-face {
+            src: url("../fonts/Antic_Didone/AnticDidone-Regular.ttf");
+            src: url("../fonts/avnir_sv/AvenirLTStd-Book.otf");
+            src: url("../fonts/avnir_sv/AvenirLTStd-Medium.otf");
+            src: url("../fonts/avnir_sv/AvenirLTStd-Roman.otf");
+            src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+            src: url("../fonts/Quicksand/static/Quicksand-Bold.ttf");
+            src: url("../fonts/Quicksand/static/Quicksand-Light.ttf");
+            src: url("../fonts/Quicksand/static/Quicksand-Medium.ttf");
+            src: url("../fonts/Quicksand/static/Quicksand-Regular.ttf");
+            src: url("../fonts/Quicksand/static/Quicksand-SemiBold.ttf");
+        }
+        
+        section {
+            min-height: 100vh;
+        }
+        
+        main {
+            background-color: #BF964B;
+        }
+        
+        #page1 {
+            background-image: url("../img/Place Your Image Here-6.png");
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: cover;
+            /* Resize the background image to cover the entire container */
+            /* background-color: #ffffff; */
+            /* background-position-y: 183px; */
+            background-color: #BF964B;
+            height: 949px;
+        }
+        
+        #page2 {
+            background-size: cover;
+            /* Resize the background image to cover the entire container */
+            /* background-color: #ffffff; */
+            background-color: #BF964B;
+        }
+        
+        #page3 {
+            background-size: cover;
+            /* Resize the background image to cover the entire container */
+            /* background-color: #ffffff; */
+            background-color: #BF964B;
+        }
+        
+        #page4 {
+            background-size: cover;
+            /* Resize the background image to cover the entire container */
+            /* background-color: #ffffff; */
+            background-color: #BF964B;
+        }
+        
+        #page5 {
+            background-image: url("../img/PlaceYourImageHere-1.png");
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: cover;
+            /* Resize the background image to cover the entire container */
+            /* background-color: #ffffff; */
+            height: 100vh;
+            background-position: bottom;
+            background-color: BF964B;
+        }
+        
+        #page6 {
+            background-size: cover;
+            /* Resize the background image to cover the entire container */
+            /* background-color: #ffffff; */
+            background-color: #BF964B;
+        }
+        
+        #page7 {
+            background-image: url("../img/PlaceYourImageHere.png");
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: cover;
+            /* Resize the background image to cover the entire container */
+            /* background-color: #ffffff; */
+            height: 100vh;
+            background-position: bottom;
+            background-color: BF964B;
+        }
+        
+        #page8 {
+            background-size: cover;
+            /* Resize the background image to cover the entire container */
+            /* background-color: #ffffff; */
+            background-color: #BF964B;
+        }
+        
+        header {
+            background-color: grey;
+            position: fixed;
+            width: 100vw;
+            z-index: 999;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+        }
+        
+        .menu {
+            display: inline-block;
+        }
+        
+        .menu a {
+            color: white;
+            font-family: AvenirLTStd-Book;
+            font-size: 35.71px;
+            text-decoration: none;
+        }
+        
+        .olive {
+            color: white;
+            font-family: Quicksand-Regular;
+            font-size: 77px;
+        }
+        
+        #page1 div {
+            position: absolute;
+            bottom: 20%;
+            display: flex;
+            width: 80%;
+            left: 50%;
+            transform: translateX(-50%);
+            justify-content: space-between;
+        }
+        
+        .book {
+            color: white;
+            font-family: AvenirLTStd-Book;
+            font-size: 35.97px;
+            background-color: #BF964B;
+            border: none;
+            padding: 7px;
+            /* margin-bottom: 5vh;
+    margin-top: 13vh;
+    margin-left: 5vh;
+    margin-right: 13vh; */
+        }
+        
+        .theitrestlarge {
+            color: white;
+            font-family: AnticDidone-Regular;
+            font-size: 121.75px;
+        }
+        
+        .theitrestsmall {
+            color: white;
+            font-family: AnticDidone-Regular;
+            font-size: 76.74px;
+        }
+        
+        @media screen and (max-width:10px) {
+            .theitrestlarge {
+                color: black;
+                font-family: AnticDidone-Regular;
+                font-size: 121.75px;
+            }
+            .theitrestsmall {
+                color: black;
+                font-family: AnticDidone-Regular;
+                font-size: 76.74px;
+            }
+            #page1 div {
+                /* position: absolute;
+                bottom: 20%;
+                display: flex;
+                width: 80%;
+                left: 50%;
+                transform: translateX(-50%);
+                justify-content: space-between; */
+                flex-direction: column;
+            }
+        }
