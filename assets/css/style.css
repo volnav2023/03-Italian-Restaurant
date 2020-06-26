@@ -2,88 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-        
-        html,
-        body,
-        div,
-        span,
-        applet,
-        object,
-        iframe,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p,
-        blockquote,
-        pre,
-        a,
-        abbr,
-        acronym,
-        address,
-        big,
-        cite,
-        code,
-        del,
-        dfn,
-        em,
-        img,
-        ins,
-        kbd,
-        q,
-        s,
-        samp,
-        small,
-        strike,
-        strong,
-        sub,
-        sup,
-        tt,
-        var,
-        b,
-        u,
-        i,
-        center,
-        dl,
-        dt,
-        dd,
-        ol,
-        ul,
-        li,
-        fieldset,
-        form,
-        label,
-        legend,
-        table,
-        caption,
-        tbody,
-        tfoot,
-        thead,
-        tr,
-        th,
-        td,
-        article,
-        aside,
-        canvas,
-        details,
-        embed,
-        figure,
-        figcaption,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        output,
-        ruby,
-        section,
-        summary,
-        time,
-        mark,
-        audio,
-        video {
+
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
             margin: 0;
             padding: 0;
             border: 0;
@@ -91,49 +11,35 @@
             font: inherit;
             vertical-align: baseline;
         }
+
         /* HTML5 display-role reset for older browsers */
-        
-        article,
-        aside,
-        details,
-        figcaption,
-        figure,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        section {
+
+        article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
             display: block;
         }
-        
+
         body {
             line-height: 1;
         }
-        
-        ol,
-        ul {
+
+        ol, ul {
             list-style: none;
         }
-        
-        blockquote,
-        q {
+
+        blockquote, q {
             quotes: none;
         }
-        
-        blockquote:before,
-        blockquote:after,
-        q:before,
-        q:after {
+
+        blockquote:before, blockquote:after, q:before, q:after {
             content: '';
             content: none;
         }
-        
+
         table {
             border-collapse: collapse;
             border-spacing: 0;
         }
-        
+
         @font-face {
             src: url("../fonts/Antic_Didone/AnticDidone-Regular.ttf");
             src: url("../fonts/avnir_sv/AvenirLTStd-Book.otf");
@@ -146,15 +52,15 @@
             src: url("../fonts/Quicksand/static/Quicksand-Regular.ttf");
             src: url("../fonts/Quicksand/static/Quicksand-SemiBold.ttf");
         }
-        
+
         section {
             min-height: 100vh;
         }
-        
+
         main {
             background-color: #BF964B;
         }
-        
+
         #page1 {
             background-image: url("../img/Place Your Image Here-6.png");
             background-repeat: no-repeat;
@@ -166,28 +72,28 @@
             background-color: #BF964B;
             height: 949px;
         }
-        
+
         #page2 {
             background-size: cover;
             /* Resize the background image to cover the entire container */
             /* background-color: #ffffff; */
-            background-color: #BF964B;
+            background-color: grey;
         }
-        
+
         #page3 {
             background-size: cover;
             /* Resize the background image to cover the entire container */
             /* background-color: #ffffff; */
             background-color: #BF964B;
         }
-        
+
         #page4 {
             background-size: cover;
             /* Resize the background image to cover the entire container */
             /* background-color: #ffffff; */
-            background-color: #BF964B;
+            background-color: grey;
         }
-        
+
         #page5 {
             background-image: url("../img/PlaceYourImageHere-1.png");
             background-repeat: no-repeat;
@@ -197,16 +103,16 @@
             /* background-color: #ffffff; */
             height: 100vh;
             background-position: bottom;
-            background-color: BF964B;
+            background-color: #BF964B;
         }
-        
+
         #page6 {
             background-size: cover;
             /* Resize the background image to cover the entire container */
             /* background-color: #ffffff; */
-            background-color: #BF964B;
+            background-color: grey;
         }
-        
+
         #page7 {
             background-image: url("../img/PlaceYourImageHere.png");
             background-repeat: no-repeat;
@@ -218,46 +124,57 @@
             background-position: bottom;
             background-color: BF964B;
         }
-        
+
         #page8 {
             background-size: cover;
             /* Resize the background image to cover the entire container */
             /* background-color: #ffffff; */
-            background-color: #BF964B;
+            background-color: grey;
         }
-        
+
         header {
             background-color: grey;
             position: fixed;
             width: 100vw;
             z-index: 999;
-        }
-        
-        nav {
             display: flex;
             align-items: center;
+        }
+
+        nav {
+            display: flex;
+            /* align-items: center; */
             justify-content: space-between;
-            width: 80%;
+            width: 95%;
             margin: auto;
         }
-        
+
         .menu {
-            display: inline-block;
+            width: 60%;
         }
-        
+
+        .menu ul {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            align-items: center;
+        }
+
         .menu a {
             color: white;
             font-family: AvenirLTStd-Book;
             font-size: 35.71px;
             text-decoration: none;
         }
-        
+
         .olive {
             color: white;
             font-family: Quicksand-Regular;
             font-size: 77px;
         }
-        
+
         #page1 div {
             position: absolute;
             bottom: 20%;
@@ -267,51 +184,120 @@
             transform: translateX(-50%);
             justify-content: space-between;
         }
-        
+
         .book {
             color: white;
-            font-family: AvenirLTStd-Book;
+            /* font-family: AvenirLTStd-Book; */
             font-size: 35.97px;
             background-color: #BF964B;
             border: none;
             padding: 7px;
-            /* margin-bottom: 5vh;
-    margin-top: 13vh;
-    margin-left: 5vh;
-    margin-right: 13vh; */
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: auto;
         }
-        
-        .theitrestlarge {
+
+        .theitrest {
             color: white;
             font-family: AnticDidone-Regular;
             font-size: 121.75px;
         }
-        
+
         .theitrestsmall {
-            color: white;
-            font-family: AnticDidone-Regular;
             font-size: 76.74px;
         }
+
+        #page2 div {
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+            margin-top: 30%;
+            margin-left: 40%;
+            justify-content: space-evenly;
+        }
+
+        .aboutustitle {
+            color: white;
+            font-family: AnticDidone-Regular;
+            font-size: 76.96px;
+            padding-top: 30%;
+        }
+
+        .aboutustext {
+            color: white;
+            font-family: AvenirLTStd-Light;
+            font-size: 31.67px;
+            width: 60%;
+        }
+
+        .page3div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-top: 5%;
+            flex-wrap: wrap;
+        }
+
+        .wewouldlovetitle {
+            color: white;
+            font-family: AnticDidone-Regular;
+            font-size: 55.25px;
+            width: 40vw;
+            padding-top: 15%;
+        }
+
+        .wewouldlovetext {
+            color: white;
+            font-family: AvenirLTStd-Light;
+            font-size: 31.67px;
+            width: 40vw;
+            padding-top: 5%;
+        }
+
+        .contactus {
+            color: white;
+            font-family: AvenirLTStd-Medium;
+            font-size: 33.38px;
+            background-color: #BF964B;
+            border: grey;
+            border-width: 3px;
+            border-style: solid;
+            margin-top: 10%;
+        }
+        .dish {
+            display: flex;
+            /* width: 50%; */
+            flex-direction: column;
+            /* margin-top: 30%; */
+            /* margin-left: 40%; */
+            justify-content: space-evenly;
         
-        @media screen and (max-width:10px) {
-            .theitrestlarge {
+        }
+        .dishes {
+            display: flex;
+            /* width: 50%; */
+            flex-direction: row;
+            /* margin-top: 30%; */
+            /* margin-left: 40%; */
+            justify-content: space-evenly;
+        
+        }
+
+        @media screen and (max-width:750px) {
+            .theitrest {
                 color: black;
-                font-family: AnticDidone-Regular;
-                font-size: 121.75px;
             }
             .theitrestsmall {
                 color: black;
-                font-family: AnticDidone-Regular;
-                font-size: 76.74px;
+            }
+            .wewouldlovetitle {
+                color: black;
+            }
+            .wewouldlovetext {
+                color: black;
             }
             #page1 div {
-                /* position: absolute;
-                bottom: 20%;
-                display: flex;
-                width: 80%;
-                left: 50%;
-                transform: translateX(-50%);
-                justify-content: space-between; */
                 flex-direction: column;
             }
         }
