@@ -66,11 +66,11 @@
         }
 
         main {
-            background-color: #BF964B;
+            background-color: #707070;
         }
 
         header {
-            background-color: grey;
+            background-color: #707070;
             position: fixed;
             width: 100vw;
             z-index: 999;
@@ -113,7 +113,7 @@
         }
 
         #page1 {
-            background-image: url("../fonts/Place Your Image Here-6.png");
+            background-image: url("../img/Place Your Image Here-6.png");
             background-repeat: no-repeat;
             /* Do not repeat the image */
             background-size: cover;
@@ -161,15 +161,14 @@
             background-size: cover;
             /* Resize the background image to cover the entire container */
             /* background-color: #ffffff; */
-            background-color: grey;
+            background-color: #BF964B;
         }
 
         #page2 div {
             display: flex;
             width: 50%;
             flex-direction: column;
-            margin-top: 30%;
-            margin-left: 40%;
+            margin-left: 35%;
             justify-content: space-evenly;
         }
 
@@ -184,7 +183,7 @@
             color: white;
             font-family: "AvenirLight";
             font-size: 31.67px;
-            width: 60%;
+            width: 80%;
             padding-top: 10%;
         }
 
@@ -192,7 +191,7 @@
             background-size: cover;
             /* Resize the background image to cover the entire container */
             /* background-color: #ffffff; */
-            background-color: #BF964B;
+            background-color: #707070;
         }
 
         .page3div {
@@ -224,17 +223,16 @@
             font-family: "AvenirLight";
             font-size: 33.38px;
             background-color: #BF964B;
-            border: grey;
-            border-width: 3px;
-            border-style: solid;
-            margin-top: 10%;
+            border-style: none;
+            padding: 3%;
+            margin-top: 5%;
         }
 
         #page4 {
             background-size: cover;
             /* Resize the background image to cover the entire container */
             /* background-color: #ffffff; */
-            background-color: grey;
+            background-color: #BF964B;
         }
 
         #page4 h1 {
@@ -313,7 +311,7 @@
         }
 
         #page6 {
-            background-image: url("../fonts/PlaceYourImageHere-1.png");
+            background-image: url("../img/PlaceYourImageHere-1.png");
             background-repeat: no-repeat;
             /* Do not repeat the image */
             background-size: cover;
@@ -321,7 +319,7 @@
             /* background-color: #ffffff; */
             height: 100vh;
             background-position: bottom;
-            background-color: grey;
+            background-color: #707070;
         }
 
         #page7 {
@@ -348,7 +346,7 @@
         }
 
         #page8 {
-            background-image: url("../fonts/PlaceYourImageHere.png");
+            background-image: url("../img/PlaceYourImageHere.png");
             background-repeat: no-repeat;
             /* Do not repeat the image */
             background-size: cover;
@@ -356,30 +354,32 @@
             /* background-color: #ffffff; */
             height: 100vh;
             background-position: bottom;
-            background-color: grey;
+            background-color: #707070;
         }
 
         #page8 h1 {
-            color: black;
+            color: white;
             font-family: "AvenirLight";
             font-size: 79.44px;
             text-align: center;
         }
 
         #page8 p {
-            color: black;
+            color: white;
             font-family: "AvenirLight";
             font-size: 27.64px;
         }
 
         .findus {
             width: 37vw;
-            padding-top: 30%;
+            padding-top: 17%;
+            padding-bottom: 30%;
+            background-color: #707070;
         }
 
         .address {
             width: 37vw;
-            padding-top: 10%;
+            padding-top: 20%;
         }
 
         .open {
@@ -397,6 +397,7 @@
             /* Resize the background image to cover the entire container */
             /* background-color: #ffffff; */
             background-color: #BF964B;
+            margin-top: 10%;
         }
 
         #page9 p {
@@ -407,7 +408,7 @@
 
         .page9text {
             width: 100vw;
-            padding-top: 30%;
+            padding-top: 10%;
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
@@ -452,6 +453,7 @@
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
+            margin-top: 10%;
             margin-top: 10%;
             width: 50%;
             transform: translateX(50%);
