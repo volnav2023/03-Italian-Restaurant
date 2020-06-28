@@ -41,16 +41,24 @@
         }
 
         @font-face {
-            src: url("../fonts/Antic_Didone/AnticDidone-Regular.ttf");
-            src: url("../fonts/avnir_sv/AvenirLTStd-Book.otf");
-            src: url("../fonts/avnir_sv/AvenirLTStd-Medium.otf");
-            src: url("../fonts/avnir_sv/AvenirLTStd-Roman.otf");
-            src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
-            src: url("../fonts/Quicksand/static/Quicksand-Bold.ttf");
-            src: url("../fonts/Quicksand/static/Quicksand-Light.ttf");
-            src: url("../fonts/Quicksand/static/Quicksand-Medium.ttf");
-            src: url("../fonts/Quicksand/static/Quicksand-Regular.ttf");
-            src: url("../fonts/Quicksand/static/Quicksand-SemiBold.ttf");
+            font-family: 'AnticDidoneRegular';
+            src: url('../fonts/AnticDidone-Regular.woff2') format('woff2'), url('../fonts/AnticDidone-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'AvenirLight';
+            src: url('../fonts/Avenir-Light.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'QuicksandRegular';
+            src: url('../fonts/Quicksand-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
         }
 
         section {
@@ -93,19 +101,19 @@
 
         .menu a {
             color: white;
-            font-family: AvenirLTStd-Book;
+            font-family: "AvenirLight";
             font-size: 35.71px;
             text-decoration: none;
         }
 
         .olive {
             color: white;
-            font-family: Quicksand-Regular;
+            font-family: "QuicksandRegular";
             font-size: 77px;
         }
 
         #page1 {
-            background-image: url("../img/Place Your Image Here-6.png");
+            background-image: url("../fonts/Place Your Image Here-6.png");
             background-repeat: no-repeat;
             /* Do not repeat the image */
             background-size: cover;
@@ -128,7 +136,7 @@
 
         .book {
             color: white;
-            /* font-family: AvenirLTStd-Book; */
+            /* font-family: "AvenirLight"; */
             font-size: 35.97px;
             background-color: #BF964B;
             border: none;
@@ -141,7 +149,7 @@
 
         .theitrest {
             color: white;
-            font-family: AnticDidone-Regular;
+            font-family: "AnticDidoneRegular";
             font-size: 121.75px;
         }
 
@@ -167,14 +175,14 @@
 
         .aboutustitle {
             color: white;
-            font-family: AnticDidone-Regular;
+            font-family: "AnticDidoneRegular";
             font-size: 76.96px;
             padding-top: 30%;
         }
 
         .aboutustext {
             color: white;
-            font-family: AvenirLTStd-Light;
+            font-family: "AvenirLight";
             font-size: 31.67px;
             width: 60%;
             padding-top: 10%;
@@ -205,7 +213,7 @@
 
         .wewouldlovetext {
             color: white;
-            font-family: AvenirLTStd-Light;
+            font-family: "AvenirLight";
             font-size: 31.67px;
             width: 40vw;
             padding-top: 5%;
@@ -213,7 +221,7 @@
 
         .contactus {
             color: white;
-            font-family: AvenirLTStd-Medium;
+            font-family: "AvenirLight";
             font-size: 33.38px;
             background-color: #BF964B;
             border: grey;
@@ -240,7 +248,7 @@
 
         #page4 p {
             color: white;
-            font-family: AvenirLTStd-Light;
+            font-family: "AvenirLight";
             font-size: 31.67px;
             text-align: center;
             padding-top: 5%;
@@ -284,14 +292,14 @@
 
         #page5 p {
             color: white;
-            font-family: AvenirLTStd-Light;
+            font-family: "AvenirLight";
             font-size: 43.58px;
             padding-left: 10%;
         }
 
         .discount {
             color: #736C4D;
-            font-family: AvenirLTStd-Heavy;
+            font-family: "AvenirLight";
             font-size: 134.22px;
             background-color: white;
             border: none;
@@ -305,7 +313,7 @@
         }
 
         #page6 {
-            background-image: url("../img/PlaceYourImageHere-1.png");
+            background-image: url("../fonts/PlaceYourImageHere-1.png");
             background-repeat: no-repeat;
             /* Do not repeat the image */
             background-size: cover;
@@ -325,7 +333,7 @@
 
         #page7 h1 {
             color: white;
-            font-family: AvenirLTStd-Light;
+            font-family: "AvenirLight";
             font-size: 66.67px;
             padding-top: 20%;
             text-align: center;
@@ -333,14 +341,14 @@
 
         #page7 p {
             color: white;
-            font-family: AvenirLTStd-Light;
+            font-family: "AvenirLight";
             font-size: 59.39px;
             padding-top: 10%;
             text-align: center;
         }
 
         #page8 {
-            background-image: url("../img/PlaceYourImageHere.png");
+            background-image: url("../fonts/PlaceYourImageHere.png");
             background-repeat: no-repeat;
             /* Do not repeat the image */
             background-size: cover;
@@ -353,14 +361,14 @@
 
         #page8 h1 {
             color: black;
-            font-family: AvenirLTStd-Heavy;
+            font-family: "AvenirLight";
             font-size: 79.44px;
             text-align: center;
         }
 
         #page8 p {
             color: black;
-            font-family: AvenirLTStd-Light;
+            font-family: "AvenirLight";
             font-size: 27.64px;
         }
 
@@ -393,7 +401,7 @@
 
         #page9 p {
             color: white;
-            font-family: AvenirLTStd-Light;
+            font-family: "AvenirLight";
             font-size: 30.73px;
         }
 
@@ -435,20 +443,18 @@
         }
 
         .page9head {
-            font-family: AvenirLTStd-Heavy;
+            font-family: "AvenirLight";
             font-size: 30.73px;
             margin-bottom: 30%;
         }
 
         .icons {
-            
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
             margin-top: 10%;
             width: 50%;
             transform: translateX(50%);
-            
         }
 
         @media screen and (max-width:750px) {

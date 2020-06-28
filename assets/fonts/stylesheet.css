@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Antic Didone';
+    src: url('AnticDidone-Regular.eot');
+    src: local('Antic Didone Regular'), local('AnticDidone-Regular'),
+        url('AnticDidone-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AnticDidone-Regular.woff2') format('woff2'),
+        url('AnticDidone-Regular.woff') format('woff'),
+        url('AnticDidone-Regular.ttf') format('truetype');
+    font-weight: ;
+    font-style: normal;
+}
+
